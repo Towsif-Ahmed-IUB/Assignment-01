@@ -1,0 +1,63 @@
+/* Container Styles */
+
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.container {
+  max-width: 800px;
+  background-color: #2b2b2b;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  color: white;
+  margin: auto;
+  gap: 20px;
+  align-items: center;
+}
+
+.text-content {
+  background-color: #2b2b2b;
+  color: white;
+  padding: 20px;
+  border-radius: 20px;
+  width: 40vw;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  height: max-content;
+}
+
+.text-content > h1 {
+  font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.image-content > img {
+  border: 1px solid #000; /* This creates a 1px solid black border */
+  border-radius: 30px;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: max-content;
+  padding: 20px;
+  margin: auto;
+  gap: 20px;
+}
+
+.image-grid > img {
+  border-radius: 20px;
+  transition: all;
+}
